@@ -24,6 +24,11 @@ def handle_exception(e):
     raise e
 
 
+@app.route("/favicon.ico")
+def favicon():
+    return "", 204
+
+
 # --- Page routes ---
 
 
